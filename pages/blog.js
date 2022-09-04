@@ -2,7 +2,7 @@ import Navbar from '../components/NavBar'
 import Footer from '../components/Footer'
 import BlogCard from '../components/BlogCard'
 import groq from 'groq'
-import client from './client'
+import client from '../components/client'
 
 const Blog = ({posts}) => {
     return (

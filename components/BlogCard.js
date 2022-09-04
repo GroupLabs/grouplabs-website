@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from './BlogCard.module.css'
 import imageUrlBuilder from '@sanity/image-url'
-import client from '../pages/client'
+import client from './client'
 import Image from 'next/image'
 
 function urlFor (source) {
