@@ -7,7 +7,7 @@ export default function About() {
     <div className={styles.aContainer}>
         <div className={styles.aMessage}>
             <div style={{maxWidth:"500px", textAlign:"center"}}>
-                `"Building a tightly integrated ecosystem in Calgary’s tech space by bridging the gap between education and industry, and creating a developer network."`
+                &ldquo;Building a tightly integrated ecosystem in Calgary&apos;s tech space by bridging the gap between education and industry, and creating a developer network.&rdquo;
             </div>
         </div>
         <div className={styles.aStoryContainer}>
