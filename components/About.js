@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className={styles.aContainer}>
         <div className={styles.aMessage}>
-            <div style={{"max-width":"500px", "textAlign":"center"}}>
+            <div style={{maxWidth:"500px", textAlign:"center"}}>
                 "Building a tightly integrated ecosystem in Calgary’s tech space by bridging the gap between education and industry, and creating a developer network."
             </div>
         </div>

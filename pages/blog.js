@@ -19,7 +19,7 @@ const Blog = ({posts}) => {
           )}
         </div>
         <Footer />
-        <style jsx>{`
+        <style>{`
           .blogContainer {
             width: 100%;
             display: flex;
