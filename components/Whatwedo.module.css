@@ -1,0 +1,60 @@
+.wContainer{
+    width: 100vw;
+    padding: 32px 0 64px 0;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.wHeader{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+
+    padding: 56px;
+}
+
+.wElement{    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.wElementImage{
+    width: 300px;
+    height: 200px;
+
+    background-color: lightgray;
+}
+
+.wElementTextContainer{
+    width: 400px;
+}
+
+.wElementText{
+    font-size: 1.5rem;
+    font-weight: 400;
+
+    margin: 0 32px;
+}
+
+.wElementSubText{
+    font-size: 1.3rem;
+    font-weight: 100;
+
+    margin: 0 32px;
+}
+
+@media (max-width: 739px) {
+    .wElementImage{
+        margin: 16px 0;
+    }
+    
+    .wElementTextContainer{
+        margin: 16px 0;
+        text-align: center;
+    }
+}

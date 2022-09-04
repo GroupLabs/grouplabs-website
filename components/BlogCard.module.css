@@ -1,0 +1,55 @@
+.bcContainer{
+    width: 270px;
+    height: 350px;
+    background: #fff;
+    overflow: hidden;
+
+    /* display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between; */
+    
+    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    margin: 3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bcImage{
+    width: 270px;
+    height: 70%;
+    object-fit: fill;
+}
+
+.bcTextContainer{
+    width: 100%;
+    height: 30%;
+
+    padding: 16px;
+}
+
+.bcTitle{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.bcPublishDate{
+    font-size: 0.8rem;
+    color: #999;
+    margin-bottom: 8px;
+}
+
+.bcTag{
+    font-size: 0.8rem;
+    color: #999;
+}
+
+/* Interactions */
+
+.bcContainer:hover {
+transform: translateY(-5px) scale(1.005) translateZ(0);
+box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+}

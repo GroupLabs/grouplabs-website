@@ -1,21 +1,17 @@
 import Head from 'next/head'
 import Navbar from '../components/NavBar'
-import Hero from '../components/Hero'
-import WhatWeDo from '../components/Whatwedo'
 import Footer from '../components/Footer'
-import SocialBanner from '../components/SocialBanner'
+import About from '../components/About'
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>About</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
-      <Hero />
-      <SocialBanner />
-      <WhatWeDo />
+      <About />
       <Footer />
     </div>
   )

@@ -1,0 +1,21 @@
+.mfContainer{
+    width: 100vw;
+    background-color: black;
+    padding: 16px 0 4px 0;
+}
+
+.mfTextContainer{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.mfMessage{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 0 0 16px 0;
+}

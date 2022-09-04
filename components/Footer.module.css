@@ -1,0 +1,140 @@
+.fContainer{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.fTextContainer{
+    width: 400px;
+    font-size: 200px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.fMapElement{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fMapContainer{
+    z-index: 10;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.fMessage{
+    width: 100vw;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 8px;
+    background-color: black;
+}
+
+.head{
+    position: relative;
+    z-index: 10;
+    top: 10vh;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    border-radius: 0 0 12px 12px;
+}
+
+.anim_container{
+    height: 90vh; /* Calculated from the height of the rectangle */
+    width: 100vw;
+
+    top: 5px;
+
+    background: rgba(0, 0, 0, 1);
+    z-index: 0;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.rect_1{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: -10vw;
+
+    height: 100vh;
+    width: 40vw;
+
+    /* transform: rotate(-13deg); */
+    filter: blur(200px);
+    -webkit-filter: blur(200px);
+    background: #607D3B;
+}
+
+.rect_2{
+    z-index: -1;
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+
+    height: 20vh;
+    width: 80vw;
+
+    transform: rotate(13deg);
+    filter: blur(200px);
+    -webkit-filter: blur(200px);
+    background: #003616;
+}
+
+.rect_3{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 200vh;
+    width: 5vw;
+
+    transform: rotate(33deg);
+    filter: blur(200px);
+    -webkit-filter: blur(200px);
+    background: green;
+}
+
+
+@keyframes rotating {
+    from{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.rotating_1 {
+    -webkit-animation: rotating 50s linear infinite;
+    animation: rotating 50s linear infinite;
+}
+
+.rotating_2 {
+    -webkit-animation: rotating 40s linear infinite;
+    animation: rotating 50s linear infinite;
+}
+
+.rotating_3 {
+    -webkit-animation: rotating 30s linear infinite;
+    animation: rotating 50s linear infinite;
+}

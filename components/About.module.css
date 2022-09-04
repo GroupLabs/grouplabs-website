@@ -1,0 +1,48 @@
+.aContainer{
+    width: 100vw;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.aMessage{
+    width: 100vw;
+    height: 200px;
+
+    padding: 16px;
+
+    background-color: #709775;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-weight: 400;
+}
+
+.aStoryContainer{
+    width: 100vw;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15vh 0 0 0;
+}
+
+.aStoryHeader{
+    color: #709775;
+    font-size: 70px;
+    font-weight: 700;
+    padding: 32px;
+}
+
+.aStory{
+    width: 500px;
+    font-size: 20px;
+    padding: 32px;
+}

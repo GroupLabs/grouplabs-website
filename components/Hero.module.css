@@ -1,0 +1,87 @@
+.hContainer{
+    height: calc(100vh - 80px);
+    width: 100vw;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.hAnimContainer{
+    height: 400px;
+    width: 400px;
+    margin: 16px;
+
+    display: flex;
+    flex-flow: column wrap;
+
+    /* Janky solution to hide extra animation content */
+    /* For some reason, this worked fine (without this solution) in previous  */
+    /* implementation */
+    justify-content: flex-end;
+    align-content: flex-end;
+
+    border-radius: 12px;
+    overflow: hidden;
+
+
+    background-color: lightgray;
+}
+
+.hTextContainer{
+    height: 400px;
+    width: 400px;
+    margin: 16px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.hText{
+    font-size: 1.6rem;
+}
+
+.hButton{
+    color: white;
+    background-color: #131313;
+    margin: 16px;
+
+    width: 200px;
+    height: 40px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 863px) {
+    .hButton{
+        display: none;
+    }
+
+    .hContainer{
+        height: calc(100vh - 80px);
+        width: 100vw;
+    
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .hTextContainer{
+        height: 200px;
+        width: 400px;
+        text-align: center;
+    }
+}
