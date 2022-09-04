@@ -1,4 +1,3 @@
-// [slug].js
 import groq from 'groq'
 import imageUrlBuilder from '@sanity/image-url'
 import { PortableText } from '@portabletext/react'
