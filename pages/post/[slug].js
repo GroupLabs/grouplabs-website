@@ -7,6 +7,7 @@ import Link from 'next/link';
 import styles from './Post.module.css'
 import MiniFooter from '../../components/MiniFooter';
 import Image from 'next/image'
+import {useEffect} from 'react'
 
 function urlFor (source) {
   return imageUrlBuilder(client).image(source)
@@ -31,7 +32,7 @@ const ptComponents = {
   }
 }
 
-const Post = ({post}) => {
+export default function Post({post}){
   const {
     title = 'Missing title',
     name = 'Missing name',
@@ -40,6 +41,7 @@ const Post = ({post}) => {
     heroImage,
     body = []
   } = post
+
   return (
     <div>
     <article className={styles.pContainer}>
@@ -74,7 +76,7 @@ const Post = ({post}) => {
         </div>
       </div>
 
-      <h1 className={styles.pHeader}>{title}</h1>
+      <h1 className={styles.pHeader}>{post.title}</h1>
 
 
       {heroImage && (
@@ -108,7 +110,7 @@ export async function getStaticPaths() {
 
   return {
     paths: paths.map((slug) => ({params: {slug}})),
-    fallback: true,
+    fallback: false,
   }
 }
 
@@ -116,10 +118,10 @@ export async function getStaticProps(context) {
   // It's important to default the slug so that it doesn't return "undefined"
   const { slug = "" } = context.params
   const post = await client.fetch(query, { slug })
+  console.log(`Building slug: ${slug}`)
   return {
     props: {
       post
     }
   }
 }
-export default Post
