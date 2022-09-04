@@ -10,10 +10,10 @@ const Blog = ({posts}) => {
         <Navbar/>
         <div className='blogContainer'>
           {posts.length > 0 && posts.map(
-            ({ _id, title = '', slug = '', publishedAt = '', mainImage }) =>
+            ({ _id, title = '', slug = '', publishedAt = '', mainImage, categories }) =>
               slug && (
                 <div key={_id}>
-                  <BlogCard title={title} tag='Newpost' date={new Date(publishedAt).toDateString()} image={mainImage.asset._ref} link={`/post/${slug.current}`}/>
+                  <BlogCard title={title} tag={categories[0]} date={new Date(publishedAt).toDateString()} image={mainImage.asset._ref} link={`/post/${slug.current}`}/>
                 </div>
               )
           )}

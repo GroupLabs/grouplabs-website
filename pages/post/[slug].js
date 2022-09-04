@@ -7,7 +7,6 @@ import Link from 'next/link';
 import styles from './Post.module.css'
 import MiniFooter from '../../components/MiniFooter';
 import Image from 'next/image'
-import {useEffect} from 'react'
 
 function urlFor (source) {
   return imageUrlBuilder(client).image(source)
@@ -21,7 +20,9 @@ const ptComponents = {
       }
       return (
         <div className={styles.pImageContainer}>
-        <Image
+        <img
+          width={320}
+          height={240}
           alt={value.alt || ' '}
           loading="lazy"
           src={urlFor(value).width(320).height(240).fit('max').auto('format')}
@@ -62,8 +63,10 @@ export default function Post({post}){
 
         <div className={styles.pAuthor}>
           {authorImage && (
-            <div>
+            <div className={styles.pAuthorImage}>
               <Image
+                width={30}
+                height={30}
                 className={styles.pAuthorImage}
                 src={urlFor(authorImage)
                   .width(50)
@@ -81,7 +84,10 @@ export default function Post({post}){
 
       {heroImage && (
       <div className={styles.pHeroContainer}>
-        <Image className={styles.pHero} src={urlFor(heroImage).url()} alt={title} />
+        <Image 
+                  width={800}
+                  height={800}
+                  className={styles.pHero} src={urlFor(heroImage).url()} alt={title} />
       </div>)}
       <div className={styles.pBody}>
         <PortableText
