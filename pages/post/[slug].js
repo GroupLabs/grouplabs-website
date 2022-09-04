@@ -7,6 +7,7 @@ import { BiChevronLeft } from 'react-icons/bi';
 import Link from 'next/link';
 import styles from './Post.module.css'
 import MiniFooter from '../../components/MiniFooter';
+import Image from 'next/image'
 
 function urlFor (source) {
   return imageUrlBuilder(client).image(source)
@@ -20,7 +21,7 @@ const ptComponents = {
       }
       return (
         <div className={styles.pImageContainer}>
-        <img
+        <Image
           alt={value.alt || ' '}
           loading="lazy"
           src={urlFor(value).width(320).height(240).fit('max').auto('format')}
@@ -61,7 +62,7 @@ const Post = ({post}) => {
         <div className={styles.pAuthor}>
           {authorImage && (
             <div>
-              <img
+              <Image
                 className={styles.pAuthorImage}
                 src={urlFor(authorImage)
                   .width(50)
@@ -79,7 +80,7 @@ const Post = ({post}) => {
 
       {heroImage && (
       <div className={styles.pHeroContainer}>
-        <img className={styles.pHero} src={urlFor(heroImage).url()} alt={title} />
+        <Image className={styles.pHero} src={urlFor(heroImage).url()} alt={title} />
       </div>)}
       <div className={styles.pBody}>
         <PortableText
