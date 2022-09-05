@@ -1,8 +1,10 @@
-// import { Canvas } from '@react-three/fiber'
 import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
-import Stats from 'three/addons/libs/stats.module.js';
+
+// Extra functionality
+// import { Canvas } from '@react-three/fiber'
+// import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+// import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
+// import Stats from 'three/addons/libs/stats.module.js';
 
 let camera, scene, renderer, object, stats;
 let planes, planeObjects, planeHelpers;
@@ -89,6 +91,9 @@ function init() {
 
     camera = new THREE.PerspectiveCamera( 35, AnimationContainer.clientWidth / AnimationContainer.clientHeight, 1, 100 );
     camera.position.set( 2, 0, 2 );
+
+    camera.lookAt(0,0,0)
+  
 
     scene.add( new THREE.AmbientLight( 0xffffff, 0.5 ) );
 
@@ -195,7 +200,7 @@ function init() {
     scene.add( ground );
 
     // Stats
-    stats = new Stats();
+    // stats = new Stats();
     // document.body.appendChild( stats.dom );
 
     // Renderer
@@ -210,10 +215,10 @@ function init() {
     renderer.localClippingEnabled = true;
 
     // Controls
-    const controls = new OrbitControls( camera, renderer.domElement );
-    controls.minDistance = 1;
-    controls.maxDistance = 2;
-    controls.enabled = false;
+    // const controls = new OrbitControls( camera, renderer.domElement );
+    // controls.minDistance = 1;
+    // controls.maxDistance = 2;
+    // controls.enabled = false;
     // controls.update();
 
     // GUI
@@ -290,8 +295,8 @@ function animate() {
 
     }
 
-    stats.begin();
+    // stats.begin();
     renderer.render( scene, camera );
-    stats.end();
+    // stats.end();
 
 }

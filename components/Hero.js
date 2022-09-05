@@ -23,9 +23,7 @@ export default function Hero() {
             </Link>
         </div>
 
-          <div id="animContainer" className={styles.hAnimContainer}>
-            <div className='scrollCompat' />
-          </div>
+        <div id="animContainer" className={styles.hAnimContainer} />
 
         <style>{`
           .scrollCompat{
