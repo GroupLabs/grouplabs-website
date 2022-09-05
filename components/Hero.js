@@ -15,7 +15,6 @@ export default function Hero() {
 
 
     <div className={styles.hContainer}>
-          <div className={styles.scrollCompat} />
         <div className={styles.hTextContainer}>
             <h1 className={styles.hText}>Open collaboration on projects. Impact on local communities. Building the future together.</h1>
             <Link href="https://discord.gg/AvktyUz3v6">
@@ -24,16 +23,6 @@ export default function Hero() {
         </div>
 
         <div id="animContainer" className={styles.hAnimContainer} />
-
-        <style>{`
-          .scrollCompat{
-            position:relative;
-            z-index:98;
-            width:100%;
-            height:100%;
-            background-color:red;
-          }
-          `}
         </style>
     </div>
 
