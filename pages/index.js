@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>GroupLabs | Home</title>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="GroupLabs" />
         <meta property="og:type" content="home page" />

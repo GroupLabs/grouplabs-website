@@ -7,6 +7,7 @@ import Link from 'next/link';
 import styles from './Post.module.css'
 import MiniFooter from '../../components/MiniFooter';
 import Image from 'next/image'
+import Head from 'next/head'
 
 function urlFor (source) {
   return imageUrlBuilder(client).image(source)
@@ -45,6 +46,16 @@ export default function Post({post}){
 
   return (
     <div>
+      <Head>
+        <title>GroupLabs | {title}</title>
+        <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content={`GroupLabs | ${title}`} />
+        <meta property="og:type" content="blog page" />
+        <meta property="og:description" content="Open collaboration on projects. Impact on local communities. Building the future together." />
+        <meta property="og:image" content={urlFor(heroImage).url()} />
+        <meta property="og:url" content="https://www.grouplabs.ca" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
     <article className={styles.pContainer}>
       <div className={styles.pCategoryContainer}>
         {categories && (

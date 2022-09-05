@@ -9,8 +9,14 @@ const Blog = ({posts}) => {
     return (
       <div>
         <Head>
-          <title>Blog</title>
+          <title>GroupLabs | Blog</title>
           <link rel="icon" href="/favicon.ico" />
+          <meta property="og:title" content="GroupLabs | Blog" />
+          <meta property="og:type" content="blog page" />
+          <meta property="og:description" content="Open collaboration on projects. Impact on local communities. Building the future together." />
+          <meta property="og:image" content="https://grouplabs.ca/GL.png" />
+          <meta property="og:url" content="https://www.grouplabs.ca" />
+          <meta name="twitter:card" content="summary_large_image" />
         </Head>
         <div className='zUpper' style={{position:"relative", zIndex:"99"}}>
         <Navbar/>
