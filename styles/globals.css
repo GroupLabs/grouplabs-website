@@ -4,6 +4,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+canvas{
+    overflow : scroll;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
