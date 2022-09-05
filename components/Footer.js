@@ -23,11 +23,11 @@ export default function Footer() {
                     <div className={styles.fMapElement}>
                      <Link href='/blog'>Blog</Link>
                     </div>
-                    <div className={styles.fMapElement}>
+                    {/* <div className={styles.fMapElement}>
                      <Link href='/'>Partners</Link>
-                    </div>
+                    </div> */}
                     <div className={styles.fMapElement}>
-                     <Link href='/'>Join</Link>
+                     <Link href='https://discord.gg/AvktyUz3v6'>Join</Link>
                     </div>
                 </div>
             </div>

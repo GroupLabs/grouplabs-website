@@ -6,13 +6,13 @@ import { Github, Discord } from '@icons-pack/react-simple-icons';
 export default function SocialBanner() {
   return (
     <div className={styles.sContainer}>
-      <Link href='/'>
+      <Link href='https://discord.gg/AvktyUz3v6'>
         <div className={styles.DiscordContainer}>
             <Discord />
             Discord
         </div>
       </Link>
-      <Link href='/'>
+      <Link href='https://github.com/GroupLabs'>
         <div className={styles.GitHubContainer}>
           <Github />
           GitHub

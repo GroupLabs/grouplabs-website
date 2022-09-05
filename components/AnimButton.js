@@ -6,7 +6,7 @@ export default function AnimButton(props) {
   return (
     <div className={styles.moduleborderwrap}>
         <Link 
-            aria-label={'Custom Order'}
+            aria-label={'Join'}
             href={props.link}>
                 <div className={styles.module}>{props.label}</div>
         </Link>

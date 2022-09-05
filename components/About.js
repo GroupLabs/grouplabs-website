@@ -15,7 +15,7 @@ export default function About() {
                 Our Story
             </div>
             <div className={styles.aStory}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra urna nec sem pretium laoreet. Maecenas vitae tempor massa. Aenean condimentum posuere magna ac mollis. Duis at bibendum elit. Curabitur dui elit, sagittis consectetur lectus tempus, porta vulputate ex. Pellentesque varius interdum nunc ornare semper. Morbi a metus sed nisl sagittis ornare. Duis facilisis magna urna, sit amet molestie purus aliquam in. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam sit amet varius nulla, eget accumsan ipsum.
+            GroupLabs began to bring local tech enthusiasts together for social events, peer networking opportunities, and to make a space where people can build impactful solutions together. We believe that collaboration is fundamental to the development of functional engineering and computer science knowledge. Under this umbrella, we aim to provide a pragmatic, thorough, and comprehensive approach to computer science and software engineering. Let&apos;s build something together today!
             </div>
         </div>
     </div>

@@ -41,7 +41,7 @@ function Navbar() {
                     </div>
                   </div>
                   <div className="font-raleway text-lg cursor-pointer">
-                    <AnimButton label="JOIN" link="/join" />
+                    <AnimButton label="JOIN" link="https://discord.gg/AvktyUz3v6" />
                   </div>
 
 								</div>
@@ -107,39 +107,32 @@ function Navbar() {
 						<div className="md:hidden" id="mobile-menu">
 							<div
 								ref={ref}
-								className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col content-end"
+								className="bg-white px-2 pt-2 pb-3 space-y-5 sm:px-3 flex flex-col content-end"
 							>
 								<Link
-									href="/"
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									href="/about"
+									className="hover:bg-blue-600 text-black block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
 								>
-									Home
-								</Link>
-								<Link
-									href="/"
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-								>
-									About
+									<div className='text-black px-8 py-8 text-4xl font-bold font-raleway cursor-pointer'>
+										About
+									</div>
 								</Link>
 
 								<Link
-									href="/"
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									href="/blog"
+									className="hover:bg-blue-600 text-black block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
 								>
-									Projects
+									<div className='text-black px-8 py-8 text-4xl font-bold font-raleway cursor-pointer'>
+										Blog
+									</div>
 								</Link>
 								<Link
-									href="/"
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									href="https://discord.gg/AvktyUz3v6"
+									className="text-black cursor-pointer"
 								>
-									Services
-								</Link>
-
-								<Link
-									href="/"
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-								>
-									Contact
+									<div className='text-black px-8 py-8 text-4xl font-bold font-raleway cursor-pointer'>
+										Join
+									</div>
 								</Link>
 							</div>
 						</div>
