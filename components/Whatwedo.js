@@ -23,7 +23,7 @@ export default function WhatWeDo() {
             </div>
             <div className={styles.wElementTextContainer}>
                 <div className={styles.wElementText}>Peer-to-peer Networking</div>
-                <div className={styles.wElementSubText}>Find like minded individuals in the local community. Engage and collaborate on projects with provided resources. Let's build something together today.</div>
+                <div className={styles.wElementSubText}>Find like minded individuals in the local community. Engage and collaborate on projects with provided resources. Let&apos;s build something together today.</div>
             </div>
         </div>
         <div className={styles.wElement}>
@@ -39,7 +39,7 @@ export default function WhatWeDo() {
             </div>
             <div className={styles.wElementTextContainer}>
                 <div className={styles.wElementText}>Group Projects</div>
-                <div className={styles.wElementSubText}>Learn and use technologies found in industry. Build with a sense of  purpose and the knowledge that the work you here do has real potential for positive impact.</div>
+                <div className={styles.wElementSubText}>Learn and use technologies found in industry. Build with a sense of purpose and the knowledge that the work you here do has real potential for positive impact.</div>
             </div>
         </div>
         <div className={styles.wElement}>
@@ -55,7 +55,7 @@ export default function WhatWeDo() {
             </div>
             <div className={styles.wElementTextContainer}>
                 <div className={styles.wElementText}>Seamless Project Onboarding</div>
-                <div className={styles.wElementSubText}>Need a team for a project? With our integrated onboarding approaches this becomes a breeze. All the while, you're helping people learn about the tech in your field.</div>
+                <div className={styles.wElementSubText}>Need a team for a project? With our integrated onboarding approaches this becomes a breeze. All the while, you&apos;re helping people learn about the tech in your field.</div>
             </div>
         </div>
     </div>
