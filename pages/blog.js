@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 import BlogCard from '../components/BlogCard'
 import groq from 'groq'
 import client from '../components/client'
+import Head from 'next/head'
 
 const Blog = ({posts}) => {
     return (
