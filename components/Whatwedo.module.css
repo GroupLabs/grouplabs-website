@@ -58,3 +58,23 @@
         text-align: center;
     }
 }
+
+@media (max-width: 440px) {
+    .wElementImage{
+        margin: 16px 0;
+    }
+    
+    .wElementTextContainer{
+        width: 300px;
+        margin: 16px 0;
+        text-align: center;
+    }
+
+    .wElementText{
+        margin: 0 0;
+    }
+
+    .wElement{    
+        padding: 20px 0;
+    }
+}

@@ -92,3 +92,10 @@
     align-items: center;
     padding: 10px;
 }
+
+@media (max-width: 640px) {
+    .pContainer{
+        margin:0;
+        padding:16px;
+    }
+}

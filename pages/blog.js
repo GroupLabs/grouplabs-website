@@ -7,7 +7,10 @@ import client from '../components/client'
 const Blog = ({posts}) => {
     return (
       <div>
+        <div className='zUpper' style={{position:"relative", zIndex:"99"}}>
         <Navbar/>
+
+        </div>
         <div className='blogContainer'>
           {posts.length > 0 && posts.map(
             ({ _id, title = '', slug = '', publishedAt = '', mainImage, categories }) =>
@@ -27,6 +30,10 @@ const Blog = ({posts}) => {
             justify-content: center;
             align-items: center;
             background-color: #F5F5F5;
+          }
+          .zUpper{
+            position:relative;
+            z-index:99;
           }
           `}
         </style>
