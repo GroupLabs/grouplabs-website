@@ -7,6 +7,10 @@ import client from '../components/client'
 const Blog = ({posts}) => {
     return (
       <div>
+        <Head>
+          <title>Blog</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
         <div className='zUpper' style={{position:"relative", zIndex:"99"}}>
         <Navbar/>
 
