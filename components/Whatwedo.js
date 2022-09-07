@@ -63,7 +63,7 @@ export default function WhatWeDo() {
                     </div>
                     <div className={styles.wElementTextContainer}>
                         <div className={styles.wElementText}>Peer-to-peer Networking</div>
-                        <div className={styles.wElementSubText}>Find like-minded individuals in the local community. Engage and collaborate on projects with provided resources. Let's build something together today.</div>
+                        <div className={styles.wElementSubText}>Find like-minded individuals in the local community. Engage and collaborate on projects with provided resources. Let&apos;s build something together today.</div>
                     </div>
                 </div>
                 <div className={styles.wElement}>
