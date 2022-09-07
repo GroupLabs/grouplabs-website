@@ -8,6 +8,14 @@
     align-content: center;
 }
 
+.wContent{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
 .wHeader{
     font-size: 50px;
     font-weight: 700;
@@ -16,10 +24,17 @@
     padding: 56px;
 }
 
+.ContentSubHeader{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 16px;
+}
+
 .wElement{    
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 
@@ -31,6 +46,7 @@
 }
 
 .wElementTextContainer{
+    padding: 20px;
     width: 400px;
 }
 
@@ -39,13 +55,14 @@
     font-weight: 700;
 
     margin: 0 32px;
+
 }
 
 .wElementSubText{
     font-size: 1rem;
     font-weight: 400;
 
-    margin: 0 32px;
+    margin: 12px 32px;
 }
 
 @media (max-width: 739px) {
