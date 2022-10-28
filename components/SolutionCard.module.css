@@ -1,0 +1,39 @@
+.sContainer{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(170, 210, 244);
+    text-decoration: none;
+    margin: 3rem;
+    border-radius: 5px;
+}
+
+.sImage{
+    width: 270px;
+    height: 70%;
+    object-fit: fill;
+    position: relative;
+
+    /* background-color: red; */
+}
+
+.sTextContainer{
+    width: 100%;
+    height: 30%;
+
+    padding: 16px;
+
+    /* background-color: purple; */
+}
+
+.sTitle{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}

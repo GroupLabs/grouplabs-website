@@ -1,5 +1,4 @@
 .sContainer{
-    width: 100vw;
     height: 200px;
     display: flex;
     flex-flow: row wrap;

@@ -23,6 +23,12 @@ function Navbar() {
 							<div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-4">
 				<div className="font-raleway text-lg cursor-pointer">
+					<Link
+						href="/solutions">
+						Solutions
+					</Link>
+				</div>
+				<div className="font-raleway text-lg cursor-pointer">
                     <Link
                       href="/about">
                       About

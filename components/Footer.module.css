@@ -79,7 +79,7 @@
     /* transform: rotate(-13deg); */
     filter: blur(200px);
     -webkit-filter: blur(200px);
-    background: #607D3B;
+    background: #0e4726;;
 }
 
 .rect_2{
@@ -109,7 +109,7 @@
     transform: rotate(33deg);
     filter: blur(200px);
     -webkit-filter: blur(200px);
-    background: green;
+    background: #0e4726;;
 }
 
 

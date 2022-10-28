@@ -1,6 +1,6 @@
 
 .moduleborderwrap {
-    background: linear-gradient(217deg, #709775, #709775);
+    background: linear-gradient(217deg, #0e4726, #0e4726);
     border-radius: 8px;
     height: 40px;
     width: 105px;
@@ -25,6 +25,6 @@
   }
 
   .module:hover {
-    color: #111D13;
+    color: #0e4726;
     width: 90px;
 }

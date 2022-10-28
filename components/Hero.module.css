@@ -11,8 +11,8 @@
 }
 
 .hAnimContainer{
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     margin: 16px;
 
     display: flex;
@@ -32,9 +32,8 @@
 }
 
 .hTextContainer{
-    height: 400px;
-    width: 400px;
-    margin: 16px;
+    width: 600px;
+    margin: 16px 16px 16px 16px;
 
     display: flex;
     flex-flow: row wrap;
@@ -43,8 +42,14 @@
 }
 
 .hText{
-    font-size: 1.6rem;
+    font-size: 2.7rem;
     text-align:center;
+}
+
+.h2Text{
+    font-size: 1rem;
+    text-align:left;
+    margin-bottom: 16px;
 }
 
 .hButton{

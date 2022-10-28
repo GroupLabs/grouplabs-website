@@ -1,0 +1,17 @@
+.outer{
+    width: 100vw;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.inner{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-weight: 400;
+    border-radius: 12px;
+    overflow: hidden;
+}
