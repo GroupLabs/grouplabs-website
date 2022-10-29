@@ -65,6 +65,19 @@
 
 }
 
+.solutionsLink{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    padding:12px;
+    background-color: black;
+    border-radius: 5px;
+    width: 300px;
+    margin: 32px auto;
+    color: white;
+    cursor: pointer;
+}
+
 .wElementSubText{
     font-size: 1rem;
     font-weight: 400;

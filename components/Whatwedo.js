@@ -11,15 +11,10 @@ export default function WhatWeDo() {
     <div className={styles.wContainer}>
         <div className={styles.wHeader}>What we do</div>
         <div className={styles.wInformation}>
-        Philosophy (Why we do what we do)
-
-
-The next generation of software will be unrecognizable form what 
-
-
-As the problem space tackled by humans evolves into something wild we will need to come together to solve new problems
-
-AI will take over 
+            The next generation of software will be unrecognizable. As the state of technnology evolves, 
+            humans will tackle a different set of challenges which will require
+            an all-embracing and concerted effort. We are offering a standard to build integrated solutions while 
+            maintaining confidentiality and AI-friendliness.
         </div>
 
         <div className={styles.wContent}>
@@ -95,6 +90,10 @@ AI will take over
                 </div>
             </div>
         </div>
+
+        <Link href="/solutions">
+            <div className={styles.solutionsLink}>See more solutions</div>
+        </Link>
     </div>
   )
 }

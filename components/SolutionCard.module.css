@@ -21,6 +21,7 @@
     border-radius: 5px;
     color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 .sImage{
     width: 270px;
