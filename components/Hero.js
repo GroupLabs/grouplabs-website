@@ -3,6 +3,7 @@ import Link from "next/link"
 import styles from "./Hero.module.css"
 import Image from "next/image"
 import HeroImage from "../public/Hero.jpg"
+import { BiChevronRight } from 'react-icons/bi';
 
 export default function Hero() {
   return (
@@ -22,10 +23,10 @@ export default function Hero() {
             </Link>
         </div>
         <div style={{zIndex: "-1"}}>
-          <Image style={{filter: "brightness(0.4)"}} src={HeroImage} height={6000} width={4000} priority placeholder="blur"/>
+          <Image style={{filter: "brightness(0.4)"}} alt="" src={HeroImage} height={6000} width={4000} priority placeholder="blur"/>
         </div>
         <Link href="https://discord.gg/AvktyUz3v6">
-            <div className={styles.mobileJoin}>Join {`>>`}</div>
+            <div className={styles.mobileJoin}>Join <BiChevronRight /></div>
         </Link>
     </div>
 

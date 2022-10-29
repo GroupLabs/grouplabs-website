@@ -10,9 +10,12 @@ export default function About() {
                 Our Story
             </div>
             <div className={styles.aStory}>
-            GroupLabs began to bring local tech enthusiasts together for social events, peer networking opportunities, and to make a space where people can build impactful solutions together. We believe that collaboration is fundamental to the development of functional engineering and computer science knowledge. Under this umbrella, we aim to provide a pragmatic, thorough, and comprehensive approach to computer science and software engineering. Let&apos;s build something together today!
-            With the 
-            
+            GroupLabs began to bring local tech enthusiasts together for social events, peer networking
+            opportunities, and to make a space where people can build impactful solutions together.
+            We believe that collaboration is fundamental to the development of 
+            functional engineering and computer science knowledge. Under this umbrella, we aim to provide a 
+            pragmatic, thorough, and comprehensive approach to computer science and software engineering. 
+            Let&apos;s build something together today!
             </div>
         </div>
         <div className={styles.aTeamContainer}>
@@ -21,7 +24,7 @@ export default function About() {
             </div>
             <Blob>
                 <div style={{padding:"80px", backgroundColor: "black", color: "white", textAlign: "center"}}>
-                We're still taking pictures... Come back later to meet the team!
+                We&apos;re still taking pictures... Come back later to meet the team!
                 </div>
             </Blob>
         </div>

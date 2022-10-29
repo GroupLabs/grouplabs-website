@@ -32,8 +32,11 @@ export default function WhatWeDo() {
                     />
                     </div>
                     <div className={styles.wElementTextContainer}>
-                        <div className={styles.wElementText}>Rapid Onboarding</div>
-                        <div className={styles.wElementSubText}>Need a team for a project? With our integrated onboarding approach this becomes a breeze. Or, incorporate this with your hiring process to help you find the right team for your codebase.</div>
+                        <div className={styles.wElementText}>Contract Projects</div>
+                        <div className={styles.wElementSubText}>
+                            Need something done? Our eclectic and talented teams of developers have 
+                            the skills needed to take on about any project.
+                        </div>
                     </div>
                 </div>
                 <div className={styles.wElement}>
@@ -48,8 +51,11 @@ export default function WhatWeDo() {
                     />
                     </div>
                     <div className={styles.wElementTextContainer}>
-                        <div className={styles.wElementText}>Secure Modules</div>
-                        <div className={styles.wElementSubText}>We handle code splitting to protect your confidentiality while still being able to tap into our talented team of developers.</div>
+                        <div className={styles.wElementText}>Rapid Onboarding</div>
+                        <div className={styles.wElementSubText}>
+                            We will handle codifying your processes, creating documentation, 
+                            and building an onboarding plan to help your team take on new members without hassle.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -68,8 +74,12 @@ export default function WhatWeDo() {
                     />
                     </div>
                     <div className={styles.wElementTextContainer}>
-                        <div className={styles.wElementText}>Networking Events</div>
-                        <div className={styles.wElementSubText}>Find like-minded individuals in the local community. Engage and collaborate on projects with provided resources. Let&apos;s build something together today.</div>
+                        <div className={styles.wElementText}>Community Projects</div>
+                        <div className={styles.wElementSubText}>
+                        Engage in projects aimed to support the local community. 
+                        Build your skillset, grow your circle, and take advantage of resources specially 
+                        provided for these efforts.
+                        </div>
                     </div>
                 </div>
                 <div className={styles.wElement}>
@@ -84,8 +94,11 @@ export default function WhatWeDo() {
                     />
                     </div>
                     <div className={styles.wElementTextContainer}>
-                        <div className={styles.wElementText}>Community Projects</div>
-                        <div className={styles.wElementSubText}>Learn and use technologies found in industry. Build with a sense of purpose and the knowledge that the work you here do has real potential for positive impact.</div>
+                        <div className={styles.wElementText}>Events</div>
+                        <div className={styles.wElementSubText}>
+                        Get exposed to the local community and beyond through professional and social events. 
+                        Learn about projects, opportunities, and have some fun!
+                        </div>
                     </div>
                 </div>
             </div>

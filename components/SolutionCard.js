@@ -1,9 +1,15 @@
 import styles from './SolutionCard.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useEffect } from 'react'
+import { useState } from 'react'
 
-export default function SolutionCard({title, image, desc, buttonLabel, buttonLink}) {
+export default function SolutionCard({title, image, desc, buttonLabel, buttonLink, comingSoon}) {
+
+  var showComingSoon = "none";
+
+  if (comingSoon == "true"){
+    showComingSoon = "block"
+  }
 
   var color = "black"
 
@@ -21,6 +27,7 @@ export default function SolutionCard({title, image, desc, buttonLabel, buttonLin
         </div>
         <div className={styles.sTextContainer}>
             <div className={styles.sTitle}>{title}</div>
+            <div style={{display: `${showComingSoon}`}} className={styles.comingSoon}>Coming Soon</div>
             <div className={styles.sDesc}>{desc}</div>
             <Link href={buttonLink}>
               <div className={styles.sButton} style={{backgroundColor: `${color}`}}>

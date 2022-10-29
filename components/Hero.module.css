@@ -68,7 +68,7 @@
     top: -20px;
     color: white;
 
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
 

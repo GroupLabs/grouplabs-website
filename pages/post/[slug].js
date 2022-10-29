@@ -21,7 +21,7 @@ const ptComponents = {
       }
       return (
         <div className={styles.pImageContainer}>
-        <img
+        <Image
           width={320}
           height={240}
           alt={value.alt || ' '}

@@ -53,3 +53,15 @@
     margin-bottom: 16px;
     text-align: justify;
 }
+
+.comingSoon{
+    color: grey;
+    font-style: italic;
+    font-size: 13px;
+    background-color: lightgray;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 1px;
+    margin: 10px 0;
+}
