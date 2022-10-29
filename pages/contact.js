@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Navbar from '../components/NavBar'
-import Hero from '../components/Hero'
-import WhatWeDo from '../components/Whatwedo'
 import Footer from '../components/Footer'
 import Image from 'next/image'
 import SocialBanner from '../components/SocialBanner'
+import Earth from '../public/Earth.png'
 
 import ContactForm from '../components/ContactForm'
 
@@ -29,7 +28,7 @@ export default function Home() {
         <div style={{minWidth: "400px", width: "60%", maxWidth: "600px", zIndex: "-1"}}>
             <Image
                 alt="Earth"
-                src="/Earth.png"
+                src={Earth}
                 width={2360}
                 height={1640}
             />
