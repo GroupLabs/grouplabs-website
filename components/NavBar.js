@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
-import AnimButton from "./AnimButton";
 import Link from "next/link";
 // import Image from "next/image";
 // import Logo from "../public/streamlineLogo.png";
@@ -22,18 +21,19 @@ function Navbar() {
 							</div>
 							<div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-4">
-				<div className="font-raleway text-lg cursor-pointer">
-					<Link
-						href="/solutions">
-						Solutions
-					</Link>
-				</div>
+
 				<div className="font-raleway text-lg cursor-pointer">
                     <Link
                       href="/about">
                       About
                     </Link>
                 </div>
+				<div className="font-raleway text-lg cursor-pointer">
+					<Link
+						href="/solutions">
+						Solutions
+					</Link>
+				</div>
 				<div className="font-raleway text-lg cursor-pointer">
                     <Link
                       href="/blog">
@@ -46,9 +46,15 @@ function Navbar() {
                       Partners
                     </div>
                   </div>
-                  <div className="font-raleway text-lg cursor-pointer">
-                    <AnimButton label="JOIN" link="https://discord.gg/AvktyUz3v6" />
+				  <div className="font-raleway text-lg cursor-pointer">
+                    <Link
+                      href="/contact">
+                      Contact
+                    </Link>
                   </div>
+                  {/* <div className="font-raleway text-lg cursor-pointer">
+                    <AnimButton label="JOIN" link="https://discord.gg/AvktyUz3v6" />
+                  </div> */}
 
 								</div>
 							</div>
@@ -123,6 +129,14 @@ function Navbar() {
 										About
 									</div>
 								</Link>
+								<Link
+									href="/solutions"
+									className="hover:bg-blue-600 text-black block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
+								>
+									<div className='text-black px-8 py-8 text-4xl font-bold font-raleway cursor-pointer'>
+										Solutions
+									</div>
+								</Link>
 
 								<Link
 									href="/blog"
@@ -133,11 +147,11 @@ function Navbar() {
 									</div>
 								</Link>
 								<Link
-									href="https://discord.gg/AvktyUz3v6"
+									href="/contact"
 									className="text-black cursor-pointer"
 								>
 									<div className='text-black px-8 py-8 text-4xl font-bold font-raleway cursor-pointer'>
-										Join
+										Contact
 									</div>
 								</Link>
 							</div>

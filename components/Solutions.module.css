@@ -1,0 +1,25 @@
+.sContainer{
+    width: 100%;
+    max-width: 1000px;
+    margin: 60px auto;
+}
+
+.sCardContainer{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 0;
+}
+
+.sHeader{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 32px 0 16px 0;
+}

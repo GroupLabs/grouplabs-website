@@ -21,8 +21,6 @@ export default function Home() {
       </Head>
       <Navbar/>
       <Solutions/>
-      <Hero />
-      <WhatWeDo />
       <SocialBanner />
       <Footer />
     </div>

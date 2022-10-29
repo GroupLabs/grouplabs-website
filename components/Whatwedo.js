@@ -10,10 +10,21 @@ export default function WhatWeDo() {
   return (
     <div className={styles.wContainer}>
         <div className={styles.wHeader}>What we do</div>
+        <div className={styles.wInformation}>
+        Philosophy (Why we do what we do)
+
+
+The next generation of software will be unrecognizable form what 
+
+
+As the problem space tackled by humans evolves into something wild we will need to come together to solve new problems
+
+AI will take over 
+        </div>
 
         <div className={styles.wContent}>
             <div>
-                <div className={styles.ContentSubHeader}>For Companies</div>
+                <div className={styles.ContentSubHeader}>For Organizations</div>
                 <div className={styles.wElement}>
                     <div className={styles.wElementImage}>
                     <Image
@@ -49,7 +60,7 @@ export default function WhatWeDo() {
             </div>
 
             <div>
-                <div className={styles.ContentSubHeader}>For Developers</div>
+                <div className={styles.ContentSubHeader}>For Community</div>
                 <div className={styles.wElement}>
                     <div className={styles.wElementImage}>
                     <Image
@@ -62,7 +73,7 @@ export default function WhatWeDo() {
                     />
                     </div>
                     <div className={styles.wElementTextContainer}>
-                        <div className={styles.wElementText}>Peer-to-peer Networking</div>
+                        <div className={styles.wElementText}>Networking Events</div>
                         <div className={styles.wElementSubText}>Find like-minded individuals in the local community. Engage and collaborate on projects with provided resources. Let&apos;s build something together today.</div>
                     </div>
                 </div>
@@ -85,7 +96,5 @@ export default function WhatWeDo() {
             </div>
         </div>
     </div>
-
-    
   )
 }

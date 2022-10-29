@@ -4,7 +4,7 @@ import styles from "./Footer.module.css"
 
 export default function Footer() {
   return (
-    <div>
+    <div className={styles.footerContainer}>
         <div className={styles.head}></div>
         <div className={styles.anim_container}>
             <div className={styles.background}>
@@ -21,13 +21,23 @@ export default function Footer() {
                      <Link href='/about'>About</Link>
                     </div>
                     <div className={styles.fMapElement}>
+                     <Link href='/solutions'>Solutions</Link>
+                    </div>
+                    <div className={styles.fMapElement}>
                      <Link href='/blog'>Blog</Link>
                     </div>
-                    {/* <div className={styles.fMapElement}>
-                     <Link href='/'>Partners</Link>
-                    </div> */}
+                    <div className={styles.fMapElement} style={{cursor: "not-allowed", opacity: "0.5"}}>
+                     <h1>Partners</h1>
+                    </div>
                     <div className={styles.fMapElement}>
-                     <Link href='https://discord.gg/AvktyUz3v6'>Join</Link>
+                     <Link href='/contact'>Contact</Link>
+                    </div>
+                    <br />
+                    <div className={styles.fMapElement2}>
+                     <Link href='https://discord.gg/AvktyUz3v6'>Discord</Link>
+                    </div>
+                    <div className={styles.fMapElement2}>
+                     <Link href='https://discord.gg/sf'>GitHub</Link>
                     </div>
                 </div>
             </div>

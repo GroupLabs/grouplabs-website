@@ -4,6 +4,8 @@ import Hero from '../components/Hero'
 import WhatWeDo from '../components/Whatwedo'
 import Footer from '../components/Footer'
 import SocialBanner from '../components/SocialBanner'
+import ClearNavbar from '../components/ClearNavBar'
+
 
 export default function Home() {
   return (
@@ -18,10 +20,17 @@ export default function Home() {
         <meta property="og:url" content="https://www.grouplabs.ca" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Navbar/>
-      <Hero />
+      <div style={{height: "100vh"}}>
+        <div style={{zIndex:"10"}}>
+          <ClearNavbar/>
+        </div>
+        <div style={{zIndex:"0", position: "absolute", top: "0"}}>
+          <Hero/>
+        </div>
+      </div>
+
+
       <WhatWeDo />
-      {/* <SocialBanner /> */}
       <Footer />
     </div>
   )

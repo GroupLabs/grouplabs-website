@@ -1,6 +1,5 @@
 .sContainer{
     width: 400px;
-    height: 400px;
     overflow: hidden;
 
     display: flex;
@@ -8,17 +7,28 @@
     justify-content: space-between;
     align-items: center;
 
-    background-color: rgb(170, 210, 244);
     text-decoration: none;
     margin: 3rem;
     border-radius: 5px;
 }
 
+.sButton{
+    padding: 6px;
+    /* background-color: #0e4726; */
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
 .sImage{
     width: 270px;
     height: 70%;
     object-fit: fill;
     position: relative;
+
+    z-index: -1;
 
     /* background-color: red; */
 }
@@ -36,4 +46,9 @@
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 8px;
+}
+
+.sDesc{
+    margin-bottom: 16px;
+    text-align: justify;
 }

@@ -1,0 +1,65 @@
+.cContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    align-items: center;
+    padding: 16px;
+
+
+}
+
+.cHeader{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.cTextField{
+    background-color: rgb(244, 244, 244);
+    border-radius: 5px;
+    padding: 3px;
+    margin: 6px;
+    width: 90%;
+}
+
+.cSelectField{
+    background-color: rgb(244, 244, 244);
+    border-radius: 5px;
+    width: 90%;
+    padding: 3px;
+    margin: 6px;
+}
+
+.cSubmitButton{
+    padding: 6px 0;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0e4726;
+    transition: 1s;
+    margin: 12px;
+    width: 90%;
+}
+
+@media (max-width: 4300px) {
+    .cHeader{
+        font-size: 50px;
+    }
+
+    .cMainContianer{
+        text-align: center;
+    }
+
+    .cTextField{
+        width: 80%;
+    }
+
+    .cSelectField{
+        width: 80%;
+    }
+
+    .cSubmitButton{
+        width: 80%;
+    }
+}
