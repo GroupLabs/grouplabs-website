@@ -23,7 +23,7 @@ export default function SolutionCard({title, image, desc, buttonLabel, buttonLin
   return (
     <div className={styles.sContainer}>
         <div className={styles.sImage}>
-          <Image  width={320} height={300} src={image} alt={desc}/>
+          <Image  width={350} height={350} src={image} alt={desc}/>
         </div>
         <div className={styles.sTextContainer}>
             <div className={styles.sTitle}>{title}</div>

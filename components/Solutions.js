@@ -2,6 +2,8 @@ import * as React from "react"
 import styles from "./Solutions.module.css"
 import SolutionCard from "./SolutionCard"
 
+import lightning from '../public/Lightning.png'
+import questionmark from '../public/QuestionMark.png'
 import peer from '../public/1.svg'
 
 export default function Solutions() {
@@ -24,7 +26,7 @@ export default function Solutions() {
           desc="Work with industry and academia in workshops where the latest technologies, tools,
           and practices are showcased." 
           buttonLabel="Learn more" buttonLink="/contact" />
-          <SolutionCard title="Tutorials" image={peer}
+          <SolutionCard title="Tutorials" image={questionmark}
           comingSoon="true"
           desc="Learn the microscopic details of different computer science and engineering concepts
           through various resources." 
@@ -41,7 +43,7 @@ export default function Solutions() {
           desc="Need something done? Our eclectic and talented teams of developers have the 
           skills needed to take on about any project." 
           buttonLabel="Request a quote" buttonLink="contact" />
-          <SolutionCard title="Rapid Onboarding" image={peer} 
+          <SolutionCard title="Rapid Onboarding" image={lightning} 
           desc="We will handle codifying your processes, creating documentation, and building
           an onboarding plan to help your team take on new members without hassle." 
           buttonLabel="Request a quote" buttonLink="contact" />

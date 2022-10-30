@@ -4,6 +4,8 @@ import styles from "./Whatwedo.module.css"
 import peer from '../public/1.svg'
 import group from '../public/2.svg'
 import onboard from '../public/3.svg'
+
+import lightning from '../public/Lightning.png'
 import Image from 'next/image'
 
 export default function WhatWeDo() {
@@ -24,7 +26,7 @@ export default function WhatWeDo() {
                     <div className={styles.wElementImage}>
                     <Image
                         src={peer}
-                        alt="Picture of the author"
+                        alt=""
                         width={300}
                         height={200}
                         // blurDataURL="data:..." automatically provided
@@ -42,8 +44,8 @@ export default function WhatWeDo() {
                 <div className={styles.wElement}>
                     <div className={styles.wElementImage}>
                     <Image
-                        src={onboard}
-                        alt="Picture of the author"
+                        src={lightning}
+                        alt=""
                         width={300}
                         height={200}
                         // blurDataURL="data:..." automatically provided
@@ -66,7 +68,7 @@ export default function WhatWeDo() {
                     <div className={styles.wElementImage}>
                     <Image
                         src={group}
-                        alt="Picture of the author"
+                        alt=""
                         width={300} 
                         height={200}
                         // blurDataURL="data:..." automatically provided
@@ -86,7 +88,7 @@ export default function WhatWeDo() {
                     <div className={styles.wElementImage}>
                     <Image
                         src={group}
-                        alt="Picture of the author"
+                        alt=""
                         width={300} 
                         height={200}
                         // blurDataURL="data:..." automatically provided
