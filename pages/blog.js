@@ -13,8 +13,10 @@ const Blog = ({posts}) => {
           <link rel="icon" href="/favicon.ico" />
           <meta property="og:title" content="GroupLabs | Blog" />
           <meta property="og:type" content="blog page" />
-          <meta property="og:description" content="Open collaboration on projects. Impact on local communities. Building the future together." />
-          <meta property="og:image" content="https://grouplabs.ca/GL.png" />
+          <meta property="og:description" content="This is a place for people to build together. 
+          We believe that in a future full of new problem spaces with unprecedented complexity, it is essential that
+          we remain cooperative and inclusive." />
+          <meta property="og:image" content="https://grouplabs.ca/OGImage.jpg" />
           <meta property="og:url" content="https://www.grouplabs.ca" />
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
