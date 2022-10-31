@@ -23,7 +23,7 @@ export default function Hero() {
             </Link>
         </div>
         <div style={{zIndex: "-1"}}>
-          <Image style={{filter: "brightness(0.4)"}} alt="" src={HeroImage} height={6000} width={4000} priority placeholder="blur"/>
+          <Image style={{filter: "brightness(0.8)"}} alt="" src={HeroImage} height={6000} width={4000} priority placeholder="blur"/>
         </div>
         <Link href="https://discord.gg/AvktyUz3v6">
             <div className={styles.mobileJoin}>Join <BiChevronRight /></div>

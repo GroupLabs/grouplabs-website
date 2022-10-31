@@ -2,26 +2,31 @@ import * as React from "react"
 import styles from "./Solutions.module.css"
 import SolutionCard from "./SolutionCard"
 
-import lightning from '../public/Lightning.png'
-import questionmark from '../public/QuestionMark.png'
-import peer from '../public/1.svg'
+import lightning from '../public/Lightning.png';
+import questionmark from '../public/QuestionMark.png';
+import community from '../public/Community.png';
+import dumbbell from '../public/Dumbbell.png';
+import network from '../public/Network.png';
+import contract from '../public/Contract.png';
+import hammer from '../public/Hammer.png'
+import people from '../public/People.png'
 
 export default function Solutions() {
   return (
     <div className={styles.sContainer}>
       <h1 className={styles.sHeader}>For Community</h1>
       <div className={styles.sCardContainer}>
-          <SolutionCard title="Community Projects" image={peer} 
+          <SolutionCard title="Community Projects" image={community} 
           desc="Engage in projects aimed to support the local community.
           Build your skillset, grow your circle, and take advantage of resources
           specially provided for these efforts." 
           buttonLabel="Learn more" buttonLink="/contact" />
-          <SolutionCard title="Events" image={peer} 
+          <SolutionCard title="Events" image={people} 
           comingSoon="true"
           desc="Get exposed to the local community and beyond through professional and social events.
           Learn about projects, opportunities, and have some fun!" 
           buttonLabel="Learn more" buttonLink="/contact" />
-          <SolutionCard title="Workshops" image={peer} 
+          <SolutionCard title="Workshops" image={hammer} 
           comingSoon="true"
           desc="Work with industry and academia in workshops where the latest technologies, tools,
           and practices are showcased." 
@@ -39,7 +44,7 @@ export default function Solutions() {
 
       <h1 className={styles.sHeader}>For Organizations</h1>
       <div className={styles.sCardContainer}>
-          <SolutionCard title="Contract Projects" image={peer}
+          <SolutionCard title="Contract Projects" image={contract}
           desc="Need something done? Our eclectic and talented teams of developers have the 
           skills needed to take on about any project." 
           buttonLabel="Request a quote" buttonLink="contact" />
@@ -47,11 +52,11 @@ export default function Solutions() {
           desc="We will handle codifying your processes, creating documentation, and building
           an onboarding plan to help your team take on new members without hassle." 
           buttonLabel="Request a quote" buttonLink="contact" />
-          <SolutionCard title="Training" image={peer} 
+          <SolutionCard title="Training" image={dumbbell} 
           desc="Help your team get up to speed on the latest technologies, and tools with our training
           sessions." 
           buttonLabel="Request a quote" buttonLink="contact" />
-          <SolutionCard title="Mesh Computing" image={peer} 
+          <SolutionCard title="Mesh Computing" image={network} 
           comingSoon="true"
           desc="Take advantage of dynamic compute tools designed to assign tasks to different resources automatically." 
           buttonLabel="Request a quote" buttonLink="contact" />

@@ -17,7 +17,7 @@ export default function SolutionCard({title, image, desc, buttonLabel, buttonLin
     color = "#2C7235"
   }
   else if(buttonLabel == "Request a quote"){
-    color = "#B87106"
+    color = "#0e4726"
   }
 
   return (

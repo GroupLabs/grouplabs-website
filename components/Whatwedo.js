@@ -1,11 +1,11 @@
 import * as React from "react"
 import Link from "next/link"
 import styles from "./Whatwedo.module.css"
-import peer from '../public/1.svg'
-import group from '../public/2.svg'
-import onboard from '../public/3.svg'
 
+import contract from '../public/Contract.png'
+import community from '../public/Community.png'
 import lightning from '../public/Lightning.png'
+import people from '../public/People.png'
 import Image from 'next/image'
 
 export default function WhatWeDo() {
@@ -25,10 +25,10 @@ export default function WhatWeDo() {
                 <div className={styles.wElement}>
                     <div className={styles.wElementImage}>
                     <Image
-                        src={peer}
+                        src={contract}
                         alt=""
                         width={300}
-                        height={200}
+                        height={300}
                         // blurDataURL="data:..." automatically provided
                         // placeholder="blur" // Optional blur-up while loading
                     />
@@ -47,7 +47,7 @@ export default function WhatWeDo() {
                         src={lightning}
                         alt=""
                         width={300}
-                        height={200}
+                        height={300}
                         // blurDataURL="data:..." automatically provided
                         // placeholder="blur" // Optional blur-up while loading
                     />
@@ -67,10 +67,10 @@ export default function WhatWeDo() {
                 <div className={styles.wElement}>
                     <div className={styles.wElementImage}>
                     <Image
-                        src={group}
+                        src={community}
                         alt=""
                         width={300} 
-                        height={200}
+                        height={300}
                         // blurDataURL="data:..." automatically provided
                         // placeholder="blur" // Optional blur-up while loading
                     />
@@ -87,10 +87,10 @@ export default function WhatWeDo() {
                 <div className={styles.wElement}>
                     <div className={styles.wElementImage}>
                     <Image
-                        src={group}
+                        src={people}
                         alt=""
                         width={300} 
-                        height={200}
+                        height={300}
                         // blurDataURL="data:..." automatically provided
                         // placeholder="blur" // Optional blur-up while loading
                     />
